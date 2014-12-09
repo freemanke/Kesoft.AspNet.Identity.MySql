@@ -1,0 +1,1 @@
+# Custom ASP.NET Identity with MySql #

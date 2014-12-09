@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/guang810828/Kesoft.AspNet.Identity.MySql</projectUrl>
+    <licenseUrl>http://kesoft.net/nuget/Kesoft.AspNet.Identity.MySql.license.txt</licenseUrl>
+    <iconUrl>http://kesoft.qiniudn.com/kesoft.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Customs user store and role store of ASP.NET Identity with MySql ORM</description>
+    <tags>ASP.NET Identity Custom MySql ORM</tags>
+    <language>en-US</language>
+    <copyright>$copyright$</copyright>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Identity.Core" version="1.0.0.0" />
+      <dependency id="Kesoft.OrmLite.MySql" version="1.0.10" />
+    </dependencies>
+  </metadata>
+</package>

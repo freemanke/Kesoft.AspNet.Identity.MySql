@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kesoft.AspNet.Identity.MySql", "Kesoft.AspNet.Identity.MySql\Kesoft.AspNet.Identity.MySql.csproj", "{26F6ECF9-4369-417B-8CF2-54FA92DF3660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kesoft.AspNet.Identity.MySql.Tests", "Kesoft.AspNet.Identity.MySql.Tests\Kesoft.AspNet.Identity.MySql.Tests.csproj", "{D96DA278-5DD8-4CDA-9CEF-02722B44DF3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BFB79E0C-4491-4D23-9309-D933FC8DCE96}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26F6ECF9-4369-417B-8CF2-54FA92DF3660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F6ECF9-4369-417B-8CF2-54FA92DF3660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F6ECF9-4369-417B-8CF2-54FA92DF3660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F6ECF9-4369-417B-8CF2-54FA92DF3660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D96DA278-5DD8-4CDA-9CEF-02722B44DF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96DA278-5DD8-4CDA-9CEF-02722B44DF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96DA278-5DD8-4CDA-9CEF-02722B44DF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96DA278-5DD8-4CDA-9CEF-02722B44DF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
